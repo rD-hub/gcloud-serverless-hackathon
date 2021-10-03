@@ -249,3 +249,15 @@ export GITHUB_ORG=rD-hub
 export GITHUB_REPO=gcloud-serverless-hackathon
 cd ~/cloudshell-open/cloudbowl-microservice-game/samples/$SAMPLE
 git init
+git add .
+git commit -m init
+git remote add origin https://github.com/$GITHUB_ORG/$GITHUB_REPO.git
+git branch -M main
+git config --global credential.helper   'cache --timeout=172800'
+git config --global push.default current
+git config --global user.email "divyansh1234dr@gmail.com"
+git config --global user.name "rD-hub"
+export GITHUB_ORG=rD-hub
+export GITHUB_REPO=gcloud-serverless-hackathon
+cd ~/cloudshell-open/cloudbowl-microservice-game/samples/python
+git init
