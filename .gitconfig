@@ -1,0 +1,7 @@
+[credential]
+	helper = cache --timeout=172800
+[push]
+	default = current
+[user]
+	email = divyansh1234dr@gmail.com
+	name = rD-hub
